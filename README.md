@@ -1,4 +1,4 @@
-# Proyecto React: Mamma Mia! / Juan Eduardo Castellon (G95)
+# Proyecto React (Parte 2) - Pizzeria Mamma Mia! / Juan Eduardo Castellón (G95)
 
 # React + Vite
 
