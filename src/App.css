@@ -1,27 +1,38 @@
 /*Se incluyen al inicio las nuevas adiciones al CSS*/
 
-.formulario{
-  padding: 50px;
+.formulario {
+  padding: 20px;
+  margin-top: 0;
   text-align: center;
-  background-color: black;
-  color: white;
+}
+
+.titulo{
+  text-align: center;
+  padding: 10px;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 html, body, #root {
   width: 100%;
   margin: 0;
   padding: 0;
+  background-color: black;
+  color: white;
 }
 
 .header {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./assets/imgs/Header.jpg');
   background-size: cover;
-  height: 200px;
+  min-height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
   text-align: center;
 }
 
@@ -57,8 +68,6 @@ html, body, #root {
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 1rem;
-  background-color: black;
-  color: white;
 }
 
 .menu-left {
@@ -73,9 +82,8 @@ html, body, #root {
 }
 
 .footer {
-  color: white;
-  background-color: black;
   padding: 20px;
   margin: 0;
   text-align: center;
+  margin-top: auto;
 }
